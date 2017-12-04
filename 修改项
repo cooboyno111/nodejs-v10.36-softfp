@@ -1,0 +1,2 @@
+/node-v0.10.36/deps/v8/build/common.gypi 修改了默认的浮点支持由hard -> soft。
+/node-v0.10.36/deps/uv/uv.gyp 修改了不支持musllibc 的问题。添加了 '-D__USE_MISC'
